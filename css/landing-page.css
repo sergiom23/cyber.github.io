@@ -1,0 +1,290 @@
+/*!
+ * Start Bootstrap - Landing Page Bootstrap Theme (http://startbootstrap.com)
+ * Code licensed under the Apache License v2.0.
+ * For details, see http://www.apache.org/licenses/LICENSE-2.0.
+ */
+
+body,
+html {
+    width: 100%;
+    height: 100%;
+    color: :#333;
+    background: url(../img/intro-bg.jpg) no-repeat center center;
+      color: #ffffff!important;
+  width: 100%:;
+  height:100%;
+  background-size: cover;
+  text-align: center;
+  background-attachment: fixed;
+}
+
+a {
+  color: #0068A6;
+  cursor:pointer;
+  -o-transition:.8s;
+  -ms-transition:.8s;
+  -moz-transition:.8s;
+  -webkit-transition:.8s;
+}
+
+a:hover{
+  color: #0695C6;
+  -o-transition:.8s;
+  -ms-transition:.8s;
+  -moz-transition:.8s;
+  -webkit-transition:.8s;
+}
+body,
+h1{    font-family: "Open Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 300;}
+h2{font-family: "Open Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 600;}
+h3{font-family: "Open Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 100;}
+h4,
+h5,
+h6 {font-family: "Open Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 700;
+}
+
+.lead {
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.intro-header {
+  padding-top: 50px; /* If you're making other pages, make sure there is 50px of padding to make sure the navbar doesn't overlap content! */
+  padding-bottom: 0px;
+  color: #ffffff!important;
+  width: 100%:;
+  height:100%;
+  background-size: cover;
+  text-align: center;
+  background-attachment: fixed;
+  transition: background 0.5s linear;
+}
+
+.intro-header img {
+
+ width: 60%;
+ margin: 0 auto;
+
+}
+
+.intro-header input[type=text] {
+
+    width: 60%;
+    padding: 10px 5px;
+    text-indent: 5px;
+    font-size: 20px;
+    margin: 0 auto;
+    height: 40px;
+    background-image: url(../img/google.png);
+    background-position: 99% center;
+    background-repeat: no-repeat;
+    -webkit-transition: all 0.2s;
+    -moz-transition: all 2s;
+    transition: all 0.2s;
+}
+
+.intro-header input[type=text]:focus {
+    height: 45px;
+    text-indent: 10px;
+    width: 70%;
+    -webkit-transition: all 0.2s;
+    -moz-transition: all 2s;
+    transition: all 0.2s;
+}
+
+
+.intro-message {
+    position: relative;
+    padding-top: 10%;
+    padding-bottom: 10%;
+}
+
+.intro-message > h1 {
+    margin: 0;
+    font-size: 5em;
+}
+
+.intro-divider {
+    width: 400px;
+    border-top: 1px solid #f8f8f8;
+    border-bottom: 1px solid rgba(0,0,0,0.2);
+}
+
+
+.col-md-3 img {
+
+    width: 100%;
+}
+
+.col-md-1 img {
+
+    width: 100%;
+}
+
+.col-md-2 img {
+
+    width: 100%;
+}
+
+.intro-message > h3 {
+
+}
+
+@media(max-width:767px) {
+    .intro-message {
+        padding-bottom: 15%;
+    }
+
+    .intro-message > h1 {
+        font-size: 3em;
+    }
+
+    ul.intro-social-buttons > li {
+        display: block;
+        margin-bottom: 20px;
+        padding: 0;
+    }
+
+    ul.intro-social-buttons > li:last-child {
+        margin-bottom: 0;
+    }
+
+    .intro-divider {
+        width: 100%;
+    }
+}
+
+.network-name {
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: 2px;
+}
+
+.content-section-a {
+    padding: 50px 0;
+    background-color: #f8f8f8;
+}
+
+.content-section-b {
+    padding: 50px 0;
+    border-top: 1px solid #e7e7e7;
+    border-bottom: 1px solid #e7e7e7;
+}
+
+.section-heading {
+    margin-bottom: 30px;
+}
+
+.section-heading-spacer {
+    float: left;
+    width: 200px;
+    border-top: 3px solid #e7e7e7;
+}
+
+.banner {
+    padding: 100px 0;
+    color: #f8f8f8;
+    background: url(../img/banner-bg.jpg) no-repeat center center;
+    background-size: cover;
+}
+
+.banner h2 {
+    margin: 0;
+    text-shadow: 2px 2px 3px rgba(0,0,0,0.6);
+    font-size: 3em;
+}
+
+.banner ul {
+    margin-bottom: 0;
+}
+
+.banner-social-buttons {
+    float: right;
+    margin-top: 0;
+}
+
+@media(max-width:1199px) {
+    ul.banner-social-buttons {
+        float: left;
+        margin-top: 15px;
+    }
+}
+
+@media(max-width:767px) {
+    .banner h2 {
+        margin: 0;
+        text-shadow: 2px 2px 3px rgba(0,0,0,0.6);
+        font-size: 3em;
+    }
+
+    ul.banner-social-buttons > li {
+        display: block;
+        margin-bottom: 20px;
+        padding: 0;
+    }
+
+    ul.banner-social-buttons > li:last-child {
+        margin-bottom: 0;
+    }
+}
+
+footer {
+    padding: 50px 0;
+
+}
+
+p.copyright {
+    margin: 15px 0 0;
+}
+
+.color1 {
+    background-color: #183C50;
+
+}
+
+.color2 {
+    background-color: #32596E;
+
+}
+
+.color3 {
+    background-color: #0068A6;
+
+}
+.color4 {
+    background-color: #0695C6;
+
+}
+
+.footer-menu-divider {
+
+    color:#333;
+    font-weight: 300;
+}
+
+.list-inline {
+
+    color:#333;
+}
+
+.list-inline strong {
+
+    color:#333;
+}
+
+.alert {
+
+    position: fixed;
+    font-size: 20px;
+
+}
+
+.close {
+    font-size: 26px;
+}
+
