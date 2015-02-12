@@ -135,11 +135,28 @@
 
 </script>
 
-    <!-- Wow animation by http://mynameismatthieu.com/WOW/ based on Animate Css-->
-    <script src="http://mynameismatthieu.com/WOW/dist/wow.min.js"></script>
-    <script>
-    new WOW().init();
-    </script>
+<script>
+  function animationHover(element, animation){
+    element = $(element);
+    element.hover(
+        function() {
+            element.addClass('animated ' + animation);        
+        },
+        function(){
+            //wait for animation to finish before removing classes
+            window.setTimeout( function(){
+                element.removeClass('animated ' + animation);
+            }, 2000);         
+        });
+}
+
+$(document).ready(function(){
+    $('.row').each(function() {
+        animationHover(this, 'bounce');
+    });
+});
+
+</script>
 
 <!-- Script de Facebook -->
 
